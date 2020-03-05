@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.iml
+.idea
+bin
+documentation-pages
+include
+lib
+pyvenv.cfg
+venv

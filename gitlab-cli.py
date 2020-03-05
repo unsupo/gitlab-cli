@@ -1,4 +1,5 @@
-#!/Users/jarndt/code_projects/venv/bin/python
+#!/usr/local/bin/python3
+# AUTHOR: jarndt
 
 import argparse
 import inspect
@@ -113,6 +114,8 @@ class GitlabCLI:
                             print(res)
             except Exception as e:
                 print(e)
+        elif len(args.function_or_path) == 0:
+            my_parser.print_help()
         else:
             print(self.execute_request(args.method, args.function_or_path, args.parameters, args.body, args.headers))
 
