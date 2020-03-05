@@ -6,6 +6,15 @@ I use this script to automatically add any folder i create on my machine for aut
 delete a file or folder i can restore it from gitlab, if i make a change and what to see how it was before i look at 
 gitlab.  
 
+This repo has some dependencies namely the requests library for making the api calls.  This is what the requirements.txt 
+file is for.
+
+Simply run the following command
+
+``bash
+pip install -r requirements.txt
+``
+
 ```bash
 usage: gitlab-cli [-h] [-u URL] [-t TOKEN] [-v VERSION] [-V] [-m METHOD]
                   [-P PARAMETERS] [-p] [-B BODY] [-H HEADERS]
